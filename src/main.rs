@@ -2,6 +2,7 @@ use std::io;
 
 pub mod ui;
 pub mod cyphers;
+pub mod util;
 
 mod cypher {
     pub fn caesar() -> i32 {
